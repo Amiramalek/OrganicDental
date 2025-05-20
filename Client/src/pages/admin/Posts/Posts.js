@@ -143,7 +143,7 @@ const Posts = () => {
               <tr key={post._id} className='hover:bg-blue-50 text-gray-700'>
                 <td className='p-2'>
                   <img
-                    src={`http://localhost:5000/${post.image}`}
+                    src={`https://organicdental.onrender.com/${post.image}`}
                     alt={post.name} className='w-[150px]'
                   />
                 </td>
@@ -220,7 +220,7 @@ const Posts = () => {
                 <div className="mb-2">
                   <strong className="text-sm text-gray-600">Current Image:</strong><br />
                   <img
-                    src={`http://localhost:5000/${currentPost.image}`}
+                    src={`https://organicdental.onrender.com/${currentPost.image}`}
                     alt="Current post"
                     className="mt-1 max-h-40 rounded-md border"
                   />

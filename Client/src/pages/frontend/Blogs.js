@@ -51,7 +51,7 @@ class Blogs extends Component {
                     className="bg-white p-6 rounded-lg shadow-md hover:shadow-lg transition-shadow duration-300"
                   >
                     <img
-                      src={`http://localhost:5000/${post.image.replace(/\\/g, '/')}`}
+                      src={`https://organicdental.onrender.com/${post.image.replace(/\\/g, '/')}`}
                       alt="Blog"
                       className="w-full h-64 object-cover rounded-t-lg mb-4"
                     />

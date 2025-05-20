@@ -155,7 +155,7 @@ const Services = () => {
                 <tr key={service._id} className='hover:bg-blue-50 text-gray-700'>
                   <td className='p-2'>
                     <img
-                      src={`http://localhost:5000/${service.image}`}
+                      src={`https://organicdental.onrender.com/${service.image}`}
                       alt={service.name}
                       style={{ width: '100px', height: '100px', objectFit: 'cover' }}
                     />
@@ -252,7 +252,7 @@ const Services = () => {
                     <div className="mb-2 text-xs text-gray-500">
                       <strong>Current Image:</strong><br />
                       <img
-                        src={`http://localhost:5000/${currentService.image}`}
+                        src={`https://organicdental.onrender.com/${currentService.image}`}
                         alt="Current service"
                         style={{
                           width: '100px',

@@ -48,7 +48,7 @@ const Service = () => {
                   <div className="relative group shadow-lg rounded-lg overflow-hidden bg-white">
                     <img
                       className="w-full h-64 object-cover transition-transform duration-300 group-hover:scale-105"
-                      src={`http://localhost:5000/${item.image?.replace(/\\/g, "/")}`}
+                      src={`https://organicdental.onrender.com/${item.image?.replace(/\\/g, "/")}`}
                       alt={item.name}
                     />
                     {/* Title Overlay */}

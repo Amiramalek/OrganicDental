@@ -371,7 +371,7 @@ export const deleteAppointment = async (id) => {
 
 // Get customers appointment only
 export const getMyAppointments = async () => {
-  const response = await fetch('http://localhost:5000/api/appointments/my', {
+  const response = await fetch('https://organicdental.onrender.com/api/appointments/my', {
     headers: {
       Authorization: `Bearer ${localStorage.getItem('token')}`,
     },

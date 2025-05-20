@@ -33,7 +33,7 @@ const BlogDetail = () => {
       <section className="container mx-auto px-4 py-12">
         <div className="">
           <img
-            src={`http://localhost:5000/${post.image?.replace(/\\/g, '/')}`}
+            src={`https://organicdental.onrender.com/${post.image?.replace(/\\/g, '/')}`}
             alt={post.name}
             className="w-full h-auto rounded-md mb-6 object-cover"
           />

@@ -271,7 +271,7 @@ import { getAllReviews, getAllServices, bookAppointment } from "../../api";
                   <div key={index} className="px-3">
                     <div className="services-inner bg-white py-3.5 pb-10 px-4 rounded-xl text-center">
                       <div className="services-img">
-                        <img className="w-full h-[250px] object-cover" src={`http://localhost:5000/${item.image}`} alt="service" />
+                        <img className="w-full h-[250px] object-cover" src={`https://organicdental.onrender.com/${item.image}`} alt="service" />
                       </div>
                       <div className="services-content text-center">
                         <h3 className="lg:text-2xl md:text-xl text-black font-semibold mt-5">{item.name}</h3>
