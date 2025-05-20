@@ -1,7 +1,7 @@
 // src/api.js
 import axios from 'axios';
 
-const API_URL = 'http://localhost:5000/api';
+const API_URL = 'https://organicdental.onrender.com/api';
 
 // Register function
 export const registerUser = async (name, email, password) => {
