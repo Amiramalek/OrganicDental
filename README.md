@@ -32,9 +32,9 @@ Admin Panel:https://organicdental-1.onrender.com/admin
 
 ---
 
-## ✨ Features
+##  Features
 
-### 👩‍⚕️ Patient-Facing
+###  Patient-Facing
 - Book appointments online
 - View services offered
 - Contact dental office via direct call buttons
@@ -43,7 +43,7 @@ Admin Panel:https://organicdental-1.onrender.com/admin
 - Register/Login to access personal dashboard
 - Submit reviews and feedback
 
-### 🔐 Admin Panel
+###  Admin Panel
 - Admin login authentication
 - Manage users (view, delete, update roles)
 - Manage appointments
@@ -53,7 +53,7 @@ Admin Panel:https://organicdental-1.onrender.com/admin
 
 ---
 
-## 📂 Folder Structure
+##  Folder Structure
 
 
 Admin can promote users to different roles
