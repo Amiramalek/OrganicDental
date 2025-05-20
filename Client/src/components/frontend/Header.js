@@ -28,6 +28,9 @@ const Header = () => {
             <li className='bg-[#8B6D5C] text-[#fff] p-4'>
               <Link to="/blogs" onClick={() => setIsOpen(false)} className="lg:text-base md:text-xs text-custom-black font-normal px-1.5">Blogs</Link>
             </li>
+            <li className='bg-[#8B6D5C] text-[#fff] p-4'>
+              <Link to="/login" onClick={() => setIsOpen(false)} className="lg:text-base md:text-xs text-custom-black font-normal px-1.5">Login</Link>
+            </li>
           </ul>
         </div>
       )}
