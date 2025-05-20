@@ -53,6 +53,7 @@ const Header = () => {
             <li><Link to="/services" className="lg:text-base md:text-xs text-custom-black font-normal px-1.5">Services</Link></li>
             <li><Link to="/faqs" className="lg:text-base md:text-xs text-custom-black font-normal px-1.5">Faq’s</Link></li>
             <li><Link to="/blogs" className="lg:text-base md:text-xs text-custom-black font-normal px-1.5">Blog</Link></li>
+            <li><Link to="/login" className="lg:text-base md:text-xs text-custom-black font-normal px-1.5">Login</Link></li>
           </ul>
           <a href="/#appointment" className="lg:text-base md:text-xs text-custom-black font-normal px-1.5">
   <button className="xs:text-[12px] lg:text-sm font-semibold text-white bg-[#8B6D5C] xs:py-4 lg:py-4 md:p-3 md:text-xs xs:px-4 md:px-8">
