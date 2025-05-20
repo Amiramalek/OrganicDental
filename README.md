@@ -34,13 +34,13 @@ cd ..
 cd client
 npm install react-router-dom
 npm start
-This will launch the frontend in your default browser at http://localhost:3000.
+This will launch the frontend in your default browser at https://organicdental-1.onrender.com.
 
 4. Access Admin Panel
 To access the admin panel:
 
 bash
-http://localhost:3000/admin
+https://organicdental-1.onrender.com/admin
 You will be able to:
 
 Register a new user

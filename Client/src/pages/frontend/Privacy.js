@@ -5,7 +5,7 @@ import React, { useState, useRef } from "react";
 const Privacy = () => {
     return(
         <>
-            <section className="bg-[url('http://localhost:3000/assets/images/abtt-banner.jpg')] bg-opacity-25 about-us bg-cover bg-center w-full py-16 md:py-32">
+            <section className="bg-[url('https://organicdental-1.onrender.com/assets/images/abtt-banner.jpg')] bg-opacity-25 about-us bg-cover bg-center w-full py-16 md:py-32">
                 <div className="md:container md:mx-auto px-[15px]">
                     <div className="main-about items-center">
                     <div className="text-center pt-4 md:pt-0">

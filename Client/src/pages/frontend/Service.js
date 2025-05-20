@@ -24,7 +24,7 @@ const Service = () => {
   return (
     <>
       {/* Banner Section */}
-      <section className="bg-[url('http://localhost:3000/assets/images/about-banner.jpg')] bg-opacity-25 bg-cover bg-center w-full py-16 md:py-32">
+      <section className="bg-[url('https://organicdental-1.onrender.com/assets/images/about-banner.jpg')] bg-opacity-25 bg-cover bg-center w-full py-16 md:py-32">
         <div className="md:container md:mx-auto px-4">
           <div className="text-center pt-4 md:pt-0">
             <h2 className="text-3xl md:text-4xl lg:text-5xl text-white font-semibold">
