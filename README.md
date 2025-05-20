@@ -1,66 +1,122 @@
 # OrganicDental
 
-This website is a role-based admin panel built with **React**, **Express**, and **MongoDB**. It supports user authentication and role-based access, allowing users to log in as either an **admin** or **customer**, and providing functionality to manage roles dynamically.
+# 🦷 Organic Dental Website
 
-## 🛠 Technologies Used
+Welcome to the **Organic Dental** full-stack web application — a modern dental care platform designed to simplify patient interaction, appointment booking, and administrative control. Built with a professional interface and essential features for both patients and clinic admins.
 
-- React (Frontend)
-- Express.js (Backend)
-- MongoDB (Database)
-- Mongoose (ODM)
-- React Router DOM (Routing)
-- Node.js (Runtime)
+---
 
-## How to Run the Project
+##  Live Demo
 
-### 1.  got to Master Branch then  Download and Extract
+Visit the live site: https://organicdental-1.onrender.com/
+Admin Panel:https://organicdental-1.onrender.com/admin
 
-First, download the project folder from the repository and extract it.
+---
 
-### 2. Run Backend Server
+## Tech Stack
 
-Open your terminal and navigate to the server directory:
+**Frontend**
+- React.js
+- React Router DOM
+- Tailwind CSS (or Bootstrap)
+- Google Maps API integration
 
-```bash
-cd server
-node server
-This will start the Express server.
+**Backend**
+- Node.js / Express
+- MongoDB + Mongoose
+- JWT-based Authentication
 
-3. Run Frontend Client
-In a new terminal window, go back to the root and start the React client:
+**Deployment**
+- Render (Backend & Frontend)
+- MongoDB Atlas (Database)
 
-bash
-cd ..
-cd client
-npm install react-router-dom
-npm start
-This will launch the frontend in your default browser at https://organicdental-1.onrender.com.
+---
 
-4. Access Admin Panel
-To access the admin panel:
+## ✨ Features
 
-bash
-https://organicdental-1.onrender.com/admin
-You will be able to:
+### 👩‍⚕️ Patient-Facing
+- Book appointments online
+- View services offered
+- Contact dental office via direct call buttons
+- Interactive Google Map for location and directions
+- Connect via social media links
+- Register/Login to access personal dashboard
+- Submit reviews and feedback
 
-Register a new user
+### 🔐 Admin Panel
+- Admin login authentication
+- Manage users (view, delete, update roles)
+- Manage appointments
+- Manage and list services
+- View user reviews
+- Dashboard insights (overview cards and stats)
 
-Log in as an admin or customer
+---
 
-Assign and manage user roles
+## 📂 Folder Structure
 
-📦 Database Credentials
-This project connects to a MongoDB instance using the following credentials:
-
-Email: amiramalek006@gmail.com
-
-Password: Amira@1234
-
-✅ Features
-Role-based login and protected routes
 
 Admin can promote users to different roles
-
 MongoDB integration for user data
 
 React frontend with dynamic routing
+
+**API Documentation**
+Base URL: https://organicdental.onrender.com/api
+
+**Auth APIs**
+POST /auth/register – Register a new user
+
+POST /auth/login – Authenticate and receive a JWT token
+
+**Post APIs**
+POST /posts – Add a new post (supports image)
+
+GET /posts – Fetch all posts
+
+GET /posts/:slug – Fetch post by slug
+
+PUT /posts/:postId – Update a post
+
+DELETE /posts/:postId – Delete a post
+
+**Service APIs**
+POST /services – Add a new service (supports image)
+
+GET /services – Fetch all services
+
+PUT /services/:serviceId – Update a service
+
+DELETE /services/:serviceId – Delete a service
+
+**User APIs**
+POST /users – Add a new user (admin only)
+
+GET /users – Get all users
+
+GET /users/:userId – Get specific user
+
+PUT /users/:userId – Update user info
+
+DELETE /users/:userId – Delete user
+
+**Appointment APIs**
+POST /appointments – Book appointment
+
+GET /appointments – Get all appointments (admin)
+
+GET /appointments/my – Get current user's appointments
+
+PUT /appointments/:id/status – Change status
+
+DELETE /appointments/:id – Delete appointment
+
+**Review APIs**
+POST /reviews – Submit a review
+
+GET /reviews – Get all reviews (admin)
+
+DELETE /reviews/:id – Delete a review
+
+**Utility**
+apiCallWithToken() – Utility function to call protected endpoints with token in header
