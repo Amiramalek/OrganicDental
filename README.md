@@ -16,7 +16,8 @@ Admin Panel:https://organicdental-1.onrender.com/admin
 **Please refer to docs folder for Documents related to Project**
 
 organic-dental/
-│
+
+
 ├── client/ # React frontend
 
 ├── server/ # Node.js backend with Express
