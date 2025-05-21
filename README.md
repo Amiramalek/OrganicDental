@@ -11,7 +11,8 @@ Welcome to the **Organic Dental** full-stack web application — a modern dental
 Visit the live site: https://organicdental-1.onrender.com/
 Admin Panel:https://organicdental-1.onrender.com/admin
 
-Admin credentials: 
+**Admin credentials: **
+
 Username: amiramalek006@gmail.com	
 
 Password: Amira@1234
