@@ -15,6 +15,25 @@ Admin Panel:https://organicdental-1.onrender.com/admin
 
 **Please refer to docs folder for Documents related to Project**
 
+organic-dental/
+│
+├── client/ # React frontend
+├── server/ # Node.js backend with Express
+├── docs/ # All project documents (Proposal, Schema, User Flow)
+├── README.md # Project overview
+
+---
+
+You can find all documents related to the project in the [docs/](./docs) directory:
+
+- Project Proposal
+- Initial Ideas
+- Schema Design
+- User Flow
+
+  
+---
+
 ## Tech Stack
 
 **Frontend**
@@ -122,3 +141,6 @@ DELETE /reviews/:id – Delete a review
 
 **Utility**
 apiCallWithToken() – Utility function to call protected endpoints with token in header
+
+This project is built as part of the Springboard Software Engineering Career Track to demonstrate skills in full-stack development, database design, authentication, and deployment.
+
