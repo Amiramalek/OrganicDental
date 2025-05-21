@@ -153,3 +153,9 @@ This application was developed as part of my Capstone Project for the Software E
 
 Organic Dental is a full-stack web application designed for a modern dental practice. It demonstrates my ability to build secure, scalable, and user-friendly applications using current technologies in frontend, backend, API integration, and database management.
 
+---
+
+**Author**
+Amira Malek
+LinkedIn Profile
+
