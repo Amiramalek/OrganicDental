@@ -146,5 +146,7 @@ DELETE /reviews/:id – Delete a review
 **Utility**
 apiCallWithToken() – Utility function to call protected endpoints with token in header
 
+---
+
 This project is built as part of the Springboard Software Engineering Career Track to demonstrate skills in full-stack development, database design, authentication, and deployment.
 
