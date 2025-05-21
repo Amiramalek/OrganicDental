@@ -147,5 +147,9 @@ apiCallWithToken() – Utility function to call protected endpoints with token i
 
 ---
 
-This project is built as part of the Springboard Software Engineering Career Track to demonstrate skills in full-stack development, database design, authentication, and deployment.
+**About This Project**
+
+This application was developed as part of my Capstone Project for the Software Engineering Career Track at [Springboard / University of Maryland Global Campus (UMGC)].
+
+Organic Dental is a full-stack web application designed for a modern dental practice. It demonstrates my ability to build secure, scalable, and user-friendly applications using current technologies in frontend, backend, API integration, and database management.
 
