@@ -13,7 +13,9 @@ Admin Panel:https://organicdental-1.onrender.com/admin
 
 Admin credentials: 
 Username: amiramalek006@gmail.com	
+
 Password: Amira@1234
+
 Since it's render /admin functionality do not work, instead click on login on website and enter the login credentials shared above
 
 ---
