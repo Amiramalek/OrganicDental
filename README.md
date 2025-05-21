@@ -156,6 +156,6 @@ Organic Dental is a full-stack web application designed for a modern dental prac
 ---
 
 **Author**
-Amira Malek
-[LinkedIn Profile] (https://www.linkedin.com/in/amira-malek-733301307/)
+Amira Malek  
+[LinkedIn Profile](https://www.linkedin.com/in/amira-malek-733301307/)
 
